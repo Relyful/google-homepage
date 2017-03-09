@@ -1,0 +1,52 @@
+body {
+	margin:0;
+	padding: 0;
+}
+
+.header {
+	width: auto;
+	height: 135px;
+	background: #ededed;
+	border: 1px solid #b2b2b2;
+}
+
+.header img {
+	height: 50px;
+	margin: 0;
+	position: absolute;
+	top: 27px;
+	left:20px;
+	
+}
+
+.sBox {
+	width: 600px; height: 45px;
+	margin: 25px 0 0 170px;
+	padding: 0px 0px 0px 10px;
+	background: white;
+	position: absolute;
+	top: 0px;
+
+	
+
+	
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+input {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+
+	width: 500px; height: 35px;
+	margin: 5px 0 0 0;
+	padding: 0px 0px 0px 5px;
+	border: 0;
