@@ -50,3 +50,59 @@ input {
 	margin: 5px 0 0 0;
 	padding: 0px 0px 0px 5px;
 	border: 0;
+	font-size: 17px;
+}
+
+#voiceLogo {
+	width: 15px;
+	height: auto;
+	left: 540px;
+	top: 12px;
+}
+
+#sLogo {
+	width: 17px;
+	height: auto;
+	left: 575px;
+	top: 12px;
+}
+
+.header ul {
+	font-family: Arial;
+	font-size: 13px;
+	color: #606060;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header li {
+	margin: 0;
+    padding: 0;
+	float:left;
+	}
+
+li a {
+	display: block;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+}
+
+#lNav {
+	position: absolute;
+	top: 103px;
+	left: 155px;
+}
+
+#rNav {
+	position: absolute;
+	top: 103px;
+	left: 650px;
+}
+
+.active {
+	color: #4285f4;
+	border-bottom: 3px solid #4285f4;
+}
