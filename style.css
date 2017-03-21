@@ -83,6 +83,8 @@ input {
 	width: 60px;
 	height: 30px;
 	text-align: center;
+	text-decoration: none;
+	color: #606060;
 }
 
 #lNav {
@@ -97,7 +99,7 @@ input {
 	left: 650px;
 }
 
-.active {
+#lNav li .active {
 	color: #4285f4;
 	border-bottom: 3px solid #4285f4;
 }
