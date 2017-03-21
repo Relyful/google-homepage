@@ -1,13 +1,14 @@
 body {
 	margin:0;
 	padding: 0;
+	font-family: Arial;
 }
 
 .header {
 	width: auto;
 	height: 135px;
-	background: #ededed;
-	border: 1px solid #b2b2b2;
+	background: #f9f9f9;
+	border-bottom: 1px solid #b2b2b2;
 }
 
 .header img {
@@ -26,13 +27,7 @@ body {
 	background: white;
 	position: absolute;
 	top: 0px;
-
-	
-
-	
-    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	border: 1px solid #dddddd;
 }
 
 
@@ -83,7 +78,7 @@ input {
 	float:left;
 	}
 
-li a {
+.header li a {
 	display: block;
 	width: 60px;
 	height: 30px;
@@ -106,3 +101,146 @@ li a {
 	color: #4285f4;
 	border-bottom: 3px solid #4285f4;
 }
+
+#appLogo {
+	width: 20px;
+	height: 20px;
+	margin-top: -20px;
+	margin-left: 1500px;
+}
+
+#notiLogo {
+	width: 20px;
+	height: 20px;
+	margin-top: -20px;
+	margin-left: 1545px;
+}
+
+#profPic {
+	width: 30px;
+	height: 30px;
+	margin-top: -25px;
+	margin-left: 1595px;
+}	
+
+.sResNum {
+	font-family: Arial;
+	font-size: 12px;
+	color: #808080;
+	margin-left: 170px;
+	margin-bottom: 0;
+}
+
+.sBody {
+	height: 750px;
+	width: 620px;
+	margin: 0 0 0 170px;
+	font-family: Arial;
+}
+
+.sBody a {
+	color: #1a0dab;
+}
+
+.sResult {
+	font-size: 13px;
+}
+
+.sResult a {
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.sResult p {
+	margin: 0;
+	padding: 0;
+}
+
+.sLink {
+	color: #006400;
+}
+
+.sResult {
+	margin-top: 25px;
+}
+
+.sBody h3 {
+	font-weight: normal;
+}
+
+.sBody li a{
+	text-decoration: none;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.sBody ul {
+	list-style-type: none;
+	float: left;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.ooLogo {
+	position: relative;
+	left: 280px;
+	top: 10px;
+}
+
+.nxtP li a {
+	text-decoration: none;
+}
+
+.nxtP {
+	list-style-type: none;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	margin-left: 285px;
+	font-family: Arial;
+}
+
+.nxtP li {
+	display: inline;
+	padding-right: 3px;
+}
+
+.footer {
+	width: auto;
+	height: 100px;
+	background: #f9f9f9;
+	border-top: 1px solid #b2b2b2;
+	
+}
+
+.footer ul {
+	font-family: Arial;
+	font-size: 13px;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 160px;
+}
+
+.footer li {
+	margin: 0 0 0 15px;
+    padding: 0;
+	float:left;
+	}
+
+.footer li a {
+	font-size: 16px;
+	color: #606060;
+	display: block;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.footer p {
+	margin: 5px 0 20px  170px;
+	clear: both;
+	color: #808080; 
+} 
