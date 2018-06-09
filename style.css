@@ -2,6 +2,7 @@ body {
 	margin:0;
 	padding: 0;
 	font-family: Arial;
+	width: 100%;
 }
 
 .header {
@@ -246,3 +247,20 @@ input {
 	clear: both;
 	color: #808080; 
 } 
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+lNav a:hover {
+	text-decoration: none;
+}
+
+rNav a:hover {
+	text-decoration: none;
+}
+
+.sBox:hover {
+	box-shadow: 0px 3px 10px #888888;
+}
